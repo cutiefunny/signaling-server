@@ -60,5 +60,5 @@ io.on("connection", (socket) => {
   });
 });
 
-const PORT = 8000;
+const PORT = 8009;
 server.listen(PORT, () => console.log(`Signaling server is running on port ${PORT}`));
